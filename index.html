@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protección Nequi - Trabaja sin miedo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #6a0dad, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cta-button {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Hero Section -->
+    <header class="bg-white">
+        <div class="container mx-auto px-6 py-16 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 leading-tight">
+                Tu portátil es tu oficina. <br>
+                <span class="gradient-text">Es hora de protegerla de verdad.</span>
+            </h1>
+            <p class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+                Presentamos Protección Nequi, la primera protección para freelancers que entiende que si tú paras, tu negocio también. Actívala en segundos y trabaja sin miedo.
+            </p>
+            <a href="#planes" class="cta-button mt-8 inline-block bg-[#6a0dad] text-white font-bold text-lg rounded-xl px-10 py-4">
+                Ver mis opciones
+            </a>
+        </div>
+    </header>
+
+    <!-- Pain Point Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">¿Te suena familiar?</h2>
+            <p class="text-gray-600 mb-12 max-w-xl mx-auto">Ese micro-infarto cuando tu herramienta principal falla en el peor momento.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pain 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md">
+                    <div class="text-4xl mb-4">😱</div>
+                    <h3 class="font-semibold text-lg mb-2">Pánico y Bloqueo</h3>
+                    <p class="text-gray-600">La pantalla se pone negra. Tu proyecto más importante se entrega mañana. No sabes qué hacer ni a quién llamar.</p>
+                </div>
+                <!-- Pain 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md">
+                    <div class="text-4xl mb-4">💸</div>
+                    <h3 class="font-semibold text-lg mb-2">Costos Inesperados</h3>
+                    <p class="text-gray-600">La reparación cuesta un ojo de la cara y descuadra todo tu mes. Toca pedir prestado o endeudarse.</p>
+                </div>
+                <!-- Pain 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md">
+                    <div class="text-4xl mb-4">⏳</div>
+                    <h3 class="font-semibold text-lg mb-2">Ingresos Perdidos</h3>
+                    <p class="text-gray-600">El verdadero dolor: cada día sin tu equipo es un día que no facturas. La crisis técnica se vuelve una crisis financiera.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delighter Section: Bolsillo de Continuidad -->
+    <section class="bg-purple-50 py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800">Esto no es un seguro tradicional. <br>Es un <span class="gradient-text">salvavidas para tu negocio.</span></h2>
+                <p class="mt-4 text-lg text-gray-600">Nuestra cobertura estrella y lo que nos hace únicos:</p>
+                <div class="mt-6 bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-[#6a0dad] mb-2">🟢 Bolsillo de Continuidad</h3>
+                    <p class="text-gray-700">Si tu equipo principal falla y necesitas parar de trabajar, te depositamos **$50.000 diarios en un bolsillo Nequi por hasta 7 días.** Para que cubras tus gastos básicos y resuelvas sin afán, porque tu tranquilidad no tiene precio.</p>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <!-- Placeholder for an animated graphic or image -->
+                <div class="bg-white p-8 rounded-2xl shadow-2xl text-center">
+                    <div class="text-6xl">💸</div>
+                    <p class="mt-4 font-bold text-2xl text-gray-800">Día 1: +$50.000</p>
+                    <p class="text-gray-500">en tu Bolsillo de Continuidad</p>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
+                        <div class="bg-green-400 h-2.5 rounded-full" style="width: 14%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pricing Section -->
+    <section id="planes" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-12">Planes simples, transparentes y #ATuRitmo</h2>
+            <div class="flex flex-col lg:flex-row justify-center items-center lg:items-stretch gap-8 max-w-4xl mx-auto">
+
+                <!-- Plan Esencial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-2 border-gray-200 w-full lg:w-1/2 flex flex-col">
+                    <h3 class="text-2xl font-bold text-gray-800">Plan Esencial</h3>
+                    <p class="text-gray-500 mt-2">La protección que necesitas</p>
+                    <p class="text-4xl font-extrabold text-gray-900 my-6">$12.900<span class="text-lg font-medium text-gray-500">/mes</span></p>
+                    <ul class="space-y-4 text-left flex-grow">
+                        <li class="flex items-center"><span class="text-green-500 mr-3">✔️</span>Cubre reparación por daño accidental</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-3">✔️</span>Cubre fallas técnicas del equipo</li>
+                    </ul>
+                    <button class="mt-8 w-full bg-gray-200 text-gray-800 font-bold py-3 rounded-xl">Elegir Esencial</button>
+                </div>
+
+                <!-- Plan Pro -->
+                <div class="bg-[#6a0dad] text-white p-8 rounded-2xl shadow-2xl border-2 border-purple-400 w-full lg:w-1/2 flex flex-col relative">
+                    <span class="absolute top-0 -translate-y-1/2 bg-yellow-300 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full">MÁS ELEGIDO</span>
+                    <h3 class="text-2xl font-bold">Plan Pro</h3>
+                    <p class="text-purple-200 mt-2">La tranquilidad que mereces</p>
+                    <p class="text-4xl font-extrabold my-6">$19.900<span class="text-lg font-medium text-purple-200">/mes</span></p>
+                    <ul class="space-y-4 text-left flex-grow">
+                        <li class="flex items-center"><span class="text-green-300 mr-3">✔️</span>**Todo lo del Plan Esencial**</li>
+                        <li class="flex items-center"><span class="text-green-300 mr-3">✔️</span>Cubre **robo** del equipo</li>
+                        <li class="flex items-center font-bold"><span class="text-green-300 mr-3">✔️</span>**Bolsillo de Continuidad**</li>
+                    </ul>
+                    <button class="cta-button mt-8 w-full bg-white text-[#6a0dad] font-bold py-3 rounded-xl">Elegir Pro</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <footer class="bg-gray-100 py-20">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <h2 class="text-2xl font-bold text-center text-gray-800 mb-8">Preguntas Frecuentes</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="font-semibold text-gray-800">¿Cómo funciona el reclamo?</h3>
+                    <p class="text-gray-600 mt-1">Desde tu app Nequi, presionas el "Botón de Pánico" en tu carátula de protección, nos cuentas qué pasó, subes una foto y listo. Nuestro equipo se encarga del resto.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800">¿Qué NO cubre?</h3>
+                    <p class="text-gray-600 mt-1">Somos súper transparentes. No cubrimos desgaste normal por uso, daños estéticos que no afecten el funcionamiento, o pérdidas por descuido. Todo está explicado en tu carátula de forma simple.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800">¿Puedo cancelar cuando quiera?</h3>
+                    <p class="text-gray-600 mt-1">¡Claro! Sin cláusulas de permanencia. Puedes cancelar tu suscripción en cualquier momento directamente desde la app, sin preguntas.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
