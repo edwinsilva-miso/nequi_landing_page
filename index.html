@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protección Nequi - Trabaja sin miedo</title>
+    <title>Protección Nequi - Trabaja sin miedo (V2)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,41 +28,51 @@
 </head>
 <body class="bg-gray-50">
 
-    <!-- Hero Section -->
+    <!-- Hero Section OPTIMIZADO -->
     <header class="bg-white">
         <div class="container mx-auto px-6 py-16 text-center">
             <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 leading-tight">
                 Tu portátil es tu oficina. <br>
                 <span class="gradient-text">Es hora de protegerla de verdad.</span>
             </h1>
+            <!-- CAMBIO 1: Subtítulo más directo -->
             <p class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
-                Presentamos Protección Nequi, la primera protección para freelancers que entiende que si tú paras, tu negocio también. Actívala en segundos y trabaja sin miedo.
+                Te presentamos el primer seguro para freelancers que, además de reparar tu equipo, <strong>protege tus ingresos con un pago diario si tienes que parar.</strong> Actívalo en segundos y trabaja sin miedo.
             </p>
             <a href="#planes" class="cta-button mt-8 inline-block bg-[#6a0dad] text-white font-bold text-lg rounded-xl px-10 py-4">
                 Ver mis opciones
             </a>
+            <!-- CAMBIO 2: Sección de Beneficio Clave Añadida -->
+            <div class="mt-12 max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
+                <div class="bg-purple-50 p-4 rounded-lg flex items-center gap-3">
+                    <span class="text-2xl">✅</span>
+                    <p class="text-gray-700"><strong class="text-[#6a0dad]">Bolsillo de Continuidad:</strong> Recibe un pago diario si no puedes trabajar.</p>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-lg flex items-center gap-3">
+                    <span class="text-2xl">⚡️</span>
+                    <p class="text-gray-700"><strong class="text-[#6a0dad]">Desembolso Rápido:</strong> Dinero en tu Nequi para que soluciones sin demoras.</p>
+                </div>
+            </div>
         </div>
     </header>
 
+    <!-- El resto de la página sigue igual... -->
     <!-- Pain Point Section -->
     <section class="py-20">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl font-bold text-gray-800 mb-4">¿Te suena familiar?</h2>
             <p class="text-gray-600 mb-12 max-w-xl mx-auto">Ese micro-infarto cuando tu herramienta principal falla en el peor momento.</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Pain 1 -->
                 <div class="bg-white p-6 rounded-2xl shadow-md">
                     <div class="text-4xl mb-4">😱</div>
                     <h3 class="font-semibold text-lg mb-2">Pánico y Bloqueo</h3>
                     <p class="text-gray-600">La pantalla se pone negra. Tu proyecto más importante se entrega mañana. No sabes qué hacer ni a quién llamar.</p>
                 </div>
-                <!-- Pain 2 -->
                 <div class="bg-white p-6 rounded-2xl shadow-md">
                     <div class="text-4xl mb-4">💸</div>
                     <h3 class="font-semibold text-lg mb-2">Costos Inesperados</h3>
                     <p class="text-gray-600">La reparación cuesta un ojo de la cara y descuadra todo tu mes. Toca pedir prestado o endeudarse.</p>
                 </div>
-                <!-- Pain 3 -->
                 <div class="bg-white p-6 rounded-2xl shadow-md">
                     <div class="text-4xl mb-4">⏳</div>
                     <h3 class="font-semibold text-lg mb-2">Ingresos Perdidos</h3>
@@ -84,7 +94,6 @@
                 </div>
             </div>
             <div class="md:w-1/2">
-                <!-- Placeholder for an animated graphic or image -->
                 <div class="bg-white p-8 rounded-2xl shadow-2xl text-center">
                     <div class="text-6xl">💸</div>
                     <p class="mt-4 font-bold text-2xl text-gray-800">Día 1: +$50.000</p>
@@ -102,8 +111,6 @@
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl font-bold text-gray-800 mb-12">Planes simples, transparentes y #ATuRitmo</h2>
             <div class="flex flex-col lg:flex-row justify-center items-center lg:items-stretch gap-8 max-w-4xl mx-auto">
-
-                <!-- Plan Esencial -->
                 <div class="bg-white p-8 rounded-2xl shadow-lg border-2 border-gray-200 w-full lg:w-1/2 flex flex-col">
                     <h3 class="text-2xl font-bold text-gray-800">Plan Esencial</h3>
                     <p class="text-gray-500 mt-2">La protección que necesitas</p>
@@ -114,8 +121,6 @@
                     </ul>
                     <button class="mt-8 w-full bg-gray-200 text-gray-800 font-bold py-3 rounded-xl">Elegir Esencial</button>
                 </div>
-
-                <!-- Plan Pro -->
                 <div class="bg-[#6a0dad] text-white p-8 rounded-2xl shadow-2xl border-2 border-purple-400 w-full lg:w-1/2 flex flex-col relative">
                     <span class="absolute top-0 -translate-y-1/2 bg-yellow-300 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full">MÁS ELEGIDO</span>
                     <h3 class="text-2xl font-bold">Plan Pro</h3>
@@ -128,7 +133,6 @@
                     </ul>
                     <button class="cta-button mt-8 w-full bg-white text-[#6a0dad] font-bold py-3 rounded-xl">Elegir Pro</button>
                 </div>
-
             </div>
         </div>
     </section>
